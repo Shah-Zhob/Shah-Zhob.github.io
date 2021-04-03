@@ -1,0 +1,28 @@
+body{
+    background-color: 	rgb(48, 47, 47);
+}
+
+.italic {
+    color: wheat;
+}
+
+
+.text-container {
+    margin: 30px;
+    padding: 50px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+p{
+    text-align: left;
+}
+
+.container {
+    margin-left: 30px;
+}
+
+i {
+    color: white;
+}
