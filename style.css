@@ -1,4 +1,35 @@
-body{
+*{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+.head{
+    text-align: center;
+}
+
+.head::before {
+    content: "";
+    display: block;
+    width: 400px;
+    height: 2px;
+    background: #fff;
+    position : absolute;
+    left: 5%;
+    top: 10%;
+}
+
+.head::after {
+    content: "";
+    display: block;
+    width: 400px;
+    height: 2px;
+    background: #fff;
+    position : absolute;
+    right: 5%;
+    top: 10%;
+}
+
+body {
     background-color: 	rgb(48, 47, 47);
 }
 
@@ -9,10 +40,7 @@ body{
 
 .text-container {
     margin: 30px;
-    padding: 50px;
-    color: white;
-    font-family: 'Poppins', sans-serif;
-    
+    padding: 50px;    
 }
 
 p{
