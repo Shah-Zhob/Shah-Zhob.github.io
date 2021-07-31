@@ -1,97 +1,61 @@
+
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./css/all.css">
-    <link rel="stylesheet" href="/css/all.min.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,400&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./style.css">
+    <title>object Assignment</title>
 </head>
-<body>
-    <div class="head">
-        <h1>Shahzhob Mumtaz</h1>
-        <h3>Web Developer</h3>
-    </div>
-    <div class="container">
-        <table>
+
+<body style="background-color:#66bfbf;">
+    <p>Answer 4</p>
+    <label>Name</label>
+    <input type="text" name="name" id="1"><br>
+
+    <label>address</label>
+    <input type="text" name="address" id="2"><br>
+
+    <label>gender</label> <br>
+    <label>male</label>
+    <input type="radio" value="male" name="Mradio" id="3">
+    <label>female</label>
+    <input type="radio" value="female" name="radio" id="4"> <br>
+
+    <label>education</label>
+    <select name="education" id="5">
+        <option value="Matric">Matric</option>
+        <option value="Intermediate">Intermediate</option>
+        <option value="bachlors">bachlors</option>
+        <option value="Masters">Masters</option>
+    </select> <br>
+
+    <label>profession</label>
+    <select name="profession" id="6">
+        <option value="Teacher">Teacher</option>
+        <option value="Doctor">Doctor</option>
+        <option value="programmer">programmer</option>
+        <option value="Engineer">Engineer</option>
+        <option value="driver">driver</option>
+    </select> <br>
+
+    <button onclick="myFunc()">submit</button>
+    <hr>
+
+    <table border="1" id="7">
+        <thead>
             <tr>
-                <td>
-                    <img src="https://images.pexels.com/photos/4022011/pexels-photo-4022011.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="photo" height="1100px" width="400px">
-                </td>
-                <td>
-                <div class="text-container">
-                    <table>
-                        <tr>
-                            <td>
-                                
-                                <h1>About Me</h1>
-                                <p>
-                                   <i class="italic">28 years / liviv / freelance</i> <br> <br>
-                                   Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                                   Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                                   when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                                   It has survived not only five centuries,but also the leap into electronic typesetting, 
-                                   remaining essentially unchanged.</p>
-                                   
-                                   <hr>
-                            </td>
-                        </tr>
-                    
-                        <tr>
-                            <td><h3>My Services</h3></td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <h4><i class="fas fa-2x fa-desktop"></i> <br> <br> Development</h4>
-                                <p>
-                                    Lorem Ipsum is simply <br> dummy text of the 
-                                    printing <br> and typesetting industry. <br>
-                                    Lorem Ipsum has been the <br> industry's
-                                    standard <br> dummy text ever since the <br>
-                                    1500s</p>
-                            </td>
-                            <td>
-                                <h4> <i class="fas fa-2x fa-rocket"></i> <br> <br> SEO Optimization</h4>
-                                <p>
-                                   Lorem Ipsum is simply dummy text of 
-                                   the printing and typesetting industry.
-                                   Lorem Ipsum has been the industry's
-                                   standard dummy text ever since the 1500s
-                                </p>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <h4><i class="fas fa-2x fa-database"></i> <br> <br> Data Base</h4>
-                                <p>
-                                    Lorem Ipsum is simply <br> dummy text of the 
-                                    printing <br> and typesetting industry. <br>
-                                    Lorem Ipsum has been the <br> industry's
-                                    standard <br> dummy text ever since the <br>
-                                    1500s</p>
-                            </td>
-                            <td>
-                                <h4><i class="fas fa-2x fa-user-secret"></i> <br> <br> Data Security</h4>
-                                <p>
-                                    
-                                   Lorem Ipsum is simply dummy text of the
-                                    printing and typesetting industry. 
-                                   Lorem Ipsum has been the industry's 
-                                   standard dummy text ever since the 1500s
-                                </p>
-                            </td>
-                        </tr>
-                    </table>
-                </div>
-                </td>
-
+                <th>name</th>
+                <th>address</th>
+                <th>gender</th>
+                <th>education</th>
+                <th>profession</th>
             </tr>
-        </table>
-
-    </div>
+        </thead>
+    </table>
+    <hr>
+    <script src="./app.js"></script>
 </body>
+
 </html>
